@@ -1,0 +1,130 @@
+body {
+    background: radial-gradient(148.63% 148.63% at 47.67% 0%, #FFFFFF 19.23%, #E3E8FF 100%);
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    height: 1000px;
+    left: 0px;
+    top: 0px;
+    margin: 0 auto;
+
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+.robo {
+    position: absolute;
+    left: 7.99%;
+    right: 55.47%;
+    top: 18.85%;
+    bottom: 29.1%;
+    z-index: -1;
+}
+.header {
+    max-height: 1em;
+    font-size: 3em;
+    margin: 16% auto 0;
+    color: #6D7698;
+}
+.header-sub {
+    max-height: 1em;
+    margin-top: 2%;
+    text-transform: uppercase;
+    font-size: 1.375 em;
+    color: #F67298;
+    letter-spacing: 0.15em;
+}
+.description {
+    max-width: 774px;
+    text-align: center;
+    color: #A1AACE;
+    margin: 3% auto;
+}
+.url-btn {
+    width: 761px;
+    height: 48px;
+    background: #A1AACE;
+    border-radius: 14px;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFF;
+    border: none;
+    outline: 0;
+}
+.radio-box {
+    width: 695px;
+    display: flex;
+    flex-direction: row;
+    margin: 2% auto;
+}
+/* прячем input checkbox */
+input[type="checkbox"] {
+  display: none;
+}
+ 
+/* стили для метки */
+label {
+    font-size: 0.6875em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #6D7698;
+    margin-right: auto;
+}
+ 
+/* формируем внешний вид чекбокса в псевдоэлементе before */
+label:before {
+  content: " ";
+  color: #fff;
+  display: inline-block;
+  margin-right: 12px;
+  text-align: center;
+  text-indent: 0px;
+  width: 18px;
+  height: 18px;
+  background: #FFF;
+  border: 2px solid #6884FC;
+  border-radius: 6px;
+  vertical-align: middle;
+}
+ 
+/* вариации внешнего вида в зав-ти от статуса checkbox */
+/* checked */
+input:checked + label:before {
+  content: "x";
+  background: #6884FC;
+}
+/* disabled */
+input:disabled + label:before {
+  background: #eee;
+  color: #aaa;
+}
+.convert {
+    display: block;
+    margin: 4% auto;
+    width: 295px;
+    height: 48px;
+    background: linear-gradient(155.3deg, #FFB4B4 20.53%, #F67298 54.86%);
+    border-radius: 14px;
+}
+.convert__text {
+    display: block;
+    margin: 12px 0;
+    color: #fff;
+}
+.bottom {
+    margin-top: 15%;
+    color: #A1AACE;
+}
+.footer {
+    margin-top: 1%;
+    font-size: 0.6875em;
+    color: #A1AACE;
+}
