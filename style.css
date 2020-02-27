@@ -49,6 +49,7 @@ a {
     font-size: 1.175 em;
     color: #F67298;
     letter-spacing: 0.15em;
+    margin: 15px 0;
 }
 .description {
     max-width: 774px;
@@ -70,8 +71,6 @@ a {
     outline: 0;
 }
 .radio-box {
-    max-width: 695px;
-    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
