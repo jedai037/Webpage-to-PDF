@@ -7,12 +7,12 @@
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Asap:600,700&display=swap" rel="stylesheet">
     </head>
-    <body style="min-height: 100vh;">
+    <body>
         <img class="robo" src="images/robo.png" alt="WebpageToPDF">
         <h1 class="header">Webpage to PDF</h1>
         <div class="header-sub">Convert any web page to pdf format online</div>
         <div class="description">Use Webpage to PDF online tool to save web pages as PDFs for storing, sharing, printing, and otherwise manipulating important web content. Just copy and paste the URL of the page you want to save and click the convert button.</div>
-        <input class="url-btn" value="URL of a web page to save as PDF" onfocus="this.value=''">
+        <form><input class="url-btn" value="URL of a web page to save as PDF" onfocus="this.value=''">
         <div class="radio-box">
             <label ><input class="checkbox" type="checkbox">
                 <span class="cbox"></span>grayscale
@@ -31,7 +31,7 @@
             </label>
         </div>
         <button class="convert" type="submit">
-            <span class="convert__text">CONVERT</span></button>
+            <span class="convert__text">CONVERT</span></button></form>
         <div class="bottom">Need to convert a local HTML file? Use <span style="color:#6D93FA">HTML to PDF</span> converter.</div>
         <a class="footer" href="https://webpagetopdf.com/" target="_blank">© 2013-2019 webpagetopdf.com | Privacy Policy</a>
     </body>
