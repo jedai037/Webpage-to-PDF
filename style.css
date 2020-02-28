@@ -39,7 +39,7 @@ a {
 .header {
     max-height: 1em;
     font-size: 2em;
-    margin: 25% auto 5%;
+    margin: 21% auto 5%;
     color: #6D7698;
 }
 .header-sub {
@@ -157,7 +157,7 @@ label {
     color: #fff;
 }
 .bottom {
-    margin: 200px auto 0;
+    margin: 150px auto 0;
     color: #A1AACE;
 }
 .footer {
