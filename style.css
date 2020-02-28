@@ -39,7 +39,7 @@ a {
 .header {
     max-height: 1em;
     font-size: 2em;
-    margin: 16% auto 0;
+    margin: 16% auto 5%;
     color: #6D7698;
 }
 .header-sub {
@@ -49,7 +49,7 @@ a {
     font-size: 1.175 em;
     color: #F67298;
     letter-spacing: 0.15em;
-    margin: 15px 0;
+    margin: 2% auto 5%;
     margin-left: 20%;
     width: 60%;
 }
@@ -57,7 +57,7 @@ a {
     max-width: 774px;
     text-align: center;
     color: #A1AACE;
-    margin: 3% auto;
+    margin: 5% auto 5%;
 }
 .url-btn {
     max-width: 320px;
@@ -67,7 +67,7 @@ a {
     background: #A1AACE;
     border-radius: 14px;
     text-align: center;
-    margin: 0 auto;
+    margin: 5% auto;
     color: #FFF;
     border: none;
     outline: 0;
@@ -136,11 +136,11 @@ label {
     text-transform: uppercase;
     color: #6D7698;
     margin-right: auto;
-    margin: 3px 0;
+    margin: 3% 0;
 }
 .convert {
     display: block;
-    margin: 4% auto;
+    margin: 7% auto;
     max-width: 295px;
     width: 100%;
     height: 48px;
@@ -157,7 +157,7 @@ label {
     color: #fff;
 }
 .bottom {
-    margin-top: 22%;
+    margin: 200px auto 0;
     color: #A1AACE;
 }
 .footer {
